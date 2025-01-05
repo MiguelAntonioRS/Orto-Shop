@@ -1,5 +1,5 @@
 body {
-    background: url('/static/images/ortho-background.jpg') no-repeat center center fixed; /* Imagen de fondo relacionada con ortodoncia */
+    background: url("{% static '../images/articulo-ortodoncia-estetica.jpg' %}") no-repeat center center fixed;
     background-size: cover;
     color: #333;
     font-family: Arial, sans-serif;
