@@ -1,0 +1,26 @@
+body {
+    background: url('/static/images/ortho-background.jpg') no-repeat center center fixed; /* Imagen de fondo relacionada con ortodoncia */
+    background-size: cover;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: rgba(0, 123, 255, 0.8); /* Azul intenso con transparencia */
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+.container {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    padding: 20px;
+    border-radius: 8px;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
