@@ -1,11 +1,14 @@
 body {
-    background: url("{% static '../images/articulo-ortodoncia-estetica.jpg' %}") no-repeat center center fixed;
+    background: url("../images/articulo-ortodoncia-estetica.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #333;
     font-family: Arial, sans-serif;
 }
 .navbar {
     background-color: rgba(0, 123, 255, 0.8); /* Azul intenso con transparencia */
+}
+.navbar-brand {
+    margin-left: 1rem; /* Mejora estética */
 }
 .navbar-brand, .nav-link {
     color: #fff !important;
