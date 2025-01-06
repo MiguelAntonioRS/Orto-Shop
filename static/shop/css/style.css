@@ -7,6 +7,9 @@ body {
 .navbar {
     background-color: rgba(0, 123, 255, 0.8); /* Azul intenso con transparencia */
 }
+.navbar-brand {
+    margin-left: 1rem; /* Mejora estética */
+}
 .navbar-brand, .nav-link {
     color: #fff !important;
 }
